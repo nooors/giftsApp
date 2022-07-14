@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'giftsApp';
+  sideBar: boolean = false;
+
+  openSidebar() {
+    console.log('open');
+    this.sideBar = true;
+  }
 }
